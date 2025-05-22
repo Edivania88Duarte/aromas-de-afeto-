@@ -1,0 +1,80 @@
+export interface Product {
+  id: string;
+  name: string;
+  category: string;
+  price: number;
+  image: string;
+  shortDescription: string;
+  longDescription: string;
+  ingredients?: string[];
+  highlights?: string[];
+}
+
+export const products: Product[] = [
+  {
+    id: "vela-lavanda",
+    name: "Vela Aromática Lavanda",
+    category: "Velas",
+    price: 49.90,
+    image: "https://images.pexels.com/photos/8140913/pexels-photo-8140913.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    shortDescription: "Relaxe com o aroma suave e calmante da lavanda.",
+    longDescription: "Nossa vela de lavanda traz a essência relaxante desta erva milenar para criar uma atmosfera de tranquilidade. Ideal para momentos de descanso, leitura ou meditação. Feita artesanalmente com ingredientes naturais e cera de soja.",
+    ingredients: ["Cera de soja", "Óleo essencial de lavanda", "Pavio de algodão"],
+    highlights: ["Tempo de queima: aproximadamente 40 horas", "Aroma calmante e relaxante", "Ideal para ambientes de descanso"]
+  },
+  {
+    id: "home-spray-maca-canela",
+    name: "Home Spray Maçã e Canela",
+    category: "Home Sprays",
+    price: 38.90,
+    image: "https://images.pexels.com/photos/8140952/pexels-photo-8140952.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    shortDescription: "A sensação acolhedora de maçã com canela para seu lar.",
+    longDescription: "O aroma aconchegante da combinação de maçã e canela traz uma sensação de acolhimento e conforto para qualquer ambiente. Ideal para salas de estar, quartos e espaços que precisam de um toque de carinho. Desenvolvido artesanalmente para proporcionar uma experiência sensorial duradoura.",
+    ingredients: ["Água deionizada", "Álcool de cereais", "Óleos essenciais", "Fixador natural"],
+    highlights: ["100ml", "Aroma duradouro", "Spray de fácil aplicação", "Ideal para todos os ambientes"]
+  },
+  {
+    id: "difusor-bambu",
+    name: "Difusor de Bambu e Jasmin",
+    category: "Difusores",
+    price: 62.90,
+    image: "https://images.pexels.com/photos/4210341/pexels-photo-4210341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    shortDescription: "Elegância e frescor do bambu com notas de jasmin.",
+    longDescription: "O difusor de Bambu e Jasmin combina a elegância e frescor do bambu com as notas florais do jasmin, criando uma atmosfera sofisticada e acolhedora. Seu aroma suave e persistente transforma qualquer ambiente em um espaço de bem-estar. O frasco âmbar protege a fragrância e os bastões de madeira natural garantem a difusão perfeita.",
+    ingredients: ["Álcool de cereais", "Óleos essenciais", "Fixador natural"],
+    highlights: ["200ml", "Dura aproximadamente 3 meses", "Bastões de madeira natural", "Frasco âmbar"]
+  },
+  {
+    id: "vela-baunilha",
+    name: "Vela Aromática Baunilha",
+    category: "Velas",
+    price: 49.90,
+    image: "https://images.pexels.com/photos/3926544/pexels-photo-3926544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    shortDescription: "O aroma doce e reconfortante da baunilha.",
+    longDescription: "Nossa vela de baunilha envolve os ambientes com seu aroma doce e reconfortante, criando uma atmosfera de aconchego e bem-estar. Ideal para momentos de relaxamento ou para tornar suas noites mais especiais. Feita artesanalmente com ingredientes naturais e cera de soja.",
+    ingredients: ["Cera de soja", "Essência de baunilha", "Pavio de algodão"],
+    highlights: ["Tempo de queima: aproximadamente 40 horas", "Aroma doce e aconchegante", "Ideal para noites especiais"]
+  },
+  {
+    id: "home-spray-alecrim",
+    name: "Home Spray Alecrim",
+    category: "Home Sprays",
+    price: 38.90,
+    image: "https://images.pexels.com/photos/4210338/pexels-photo-4210338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    shortDescription: "Refrescância e clareza mental com o aroma do alecrim.",
+    longDescription: "O Home Spray de Alecrim traz a refrescância e os benefícios desta erva para os ambientes, ajudando a proporcionar clareza mental e foco. Ideal para espaços de trabalho, estudo ou qualquer lugar que precise de uma energia renovadora. Desenvolvido artesanalmente para proporcionar uma experiência sensorial autêntica.",
+    ingredients: ["Água deionizada", "Álcool de cereais", "Óleo essencial de alecrim", "Fixador natural"],
+    highlights: ["100ml", "Aroma refrescante", "Spray de fácil aplicação", "Ideal para ambientes de trabalho e estudo"]
+  },
+  {
+    id: "difusor-cha-branco",
+    name: "Difusor de Chá Branco",
+    category: "Difusores",
+    price: 62.90,
+    image: "https://images.pexels.com/photos/4202325/pexels-photo-4202325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    shortDescription: "A delicadeza e elegância do chá branco em forma de aroma.",
+    longDescription: "O difusor de Chá Branco captura a delicadeza e a elegância desta fragrância, criando uma atmosfera de sofisticação e serenidade. Seu aroma suave, levemente floral e com notas cítricas, traz uma sensação de limpeza e frescor para os ambientes. O frasco âmbar protege a fragrância e os bastões de madeira natural garantem a difusão perfeita.",
+    ingredients: ["Álcool de cereais", "Óleos essenciais", "Fixador natural"],
+    highlights: ["200ml", "Dura aproximadamente 3 meses", "Bastões de madeira natural", "Frasco âmbar"]
+  }
+];

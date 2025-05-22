@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans text-accent-800 bg-primary-50;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-serif;
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+  
+  .heading-lg {
+    @apply font-serif text-4xl md:text-5xl lg:text-6xl font-light leading-tight;
+  }
+  
+  .heading-md {
+    @apply font-serif text-3xl md:text-4xl font-light leading-snug;
+  }
+  
+  .heading-sm {
+    @apply font-serif text-2xl md:text-3xl font-light leading-relaxed;
+  }
+  
+  .section-padding {
+    @apply py-12 md:py-20;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-primary-600 text-white rounded-md hover:bg-primary-700 transition-colors duration-300 inline-block text-center;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-transparent border border-primary-600 text-primary-700 rounded-md hover:bg-primary-50 transition-colors duration-300 inline-block text-center;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-primary-200 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-400 bg-white;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}

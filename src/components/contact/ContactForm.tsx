@@ -14,12 +14,11 @@ const ContactForm: React.FC = () => {
     setFormStatus('submitting');
     
     try {
-      // In a real implementation, you would use your EmailJS credentials
       await emailjs.sendForm(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
+        'service_aromas', // Service ID from EmailJS
+        'template_contact', // Template ID from EmailJS
         formRef.current,
-        'YOUR_PUBLIC_KEY'
+        'YOUR_PUBLIC_KEY' // Public Key from EmailJS
       );
       
       setFormStatus('success');
@@ -66,10 +65,10 @@ const ContactForm: React.FC = () => {
       
       <form ref={formRef} onSubmit={handleSubmit}>
         <div className="mb-4">
-          <label htmlFor="name" className="block text-accent-700 mb-2">Nome</label>
+          <label htmlFor="user_name" className="block text-accent-700 mb-2">Nome</label>
           <input
             type="text"
-            id="name"
+            id="user_name"
             name="user_name"
             required
             className="input-field"
@@ -77,10 +76,10 @@ const ContactForm: React.FC = () => {
         </div>
         
         <div className="mb-4">
-          <label htmlFor="email" className="block text-accent-700 mb-2">E-mail</label>
+          <label htmlFor="user_email" className="block text-accent-700 mb-2">E-mail</label>
           <input
             type="email"
-            id="email"
+            id="user_email"
             name="user_email"
             required
             className="input-field"
@@ -88,10 +87,10 @@ const ContactForm: React.FC = () => {
         </div>
         
         <div className="mb-4">
-          <label htmlFor="phone" className="block text-accent-700 mb-2">Telefone (opcional)</label>
+          <label htmlFor="user_phone" className="block text-accent-700 mb-2">Telefone (opcional)</label>
           <input
             type="tel"
-            id="phone"
+            id="user_phone"
             name="user_phone"
             className="input-field"
           />

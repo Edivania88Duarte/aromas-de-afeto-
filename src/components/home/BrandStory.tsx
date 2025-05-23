@@ -16,7 +16,7 @@ const BrandStory: React.FC = () => {
           >
             <div className="rounded-lg overflow-hidden">
               <img 
-                src="https://images.pexels.com/photos/6483581/pexels-photo-6483581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                src="assets/quadro.png" 
                 alt="Processo artesanal de criação de velas" 
                 className="w-full h-full object-cover"
               />

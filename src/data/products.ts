@@ -12,14 +12,14 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: "vela-lavanda",
-    name: "Vela Aromática Lavanda",
+    id: "vela-maçã-canela",
+    name: "Vela Aromática Maçã e Canela",   
     category: "Velas",
     price: 49.90,
-    image: "https://images.pexels.com/photos/8140913/pexels-photo-8140913.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    shortDescription: "Relaxe com o aroma suave e calmante da lavanda.",
+    image: "assets/vela.png",
+    shortDescription: "Relaxe com o aroma suave e calmante da maçã e canela.",
     longDescription: "Nossa vela de lavanda traz a essência relaxante desta erva milenar para criar uma atmosfera de tranquilidade. Ideal para momentos de descanso, leitura ou meditação. Feita artesanalmente com ingredientes naturais e cera de soja.",
-    ingredients: ["Cera de soja", "Óleo essencial de lavanda", "Pavio de algodão"],
+    ingredients: ["Cera de soja", "Óleo essencial de maça e canela", "Pavio de algodão"],
     highlights: ["Tempo de queima: aproximadamente 40 horas", "Aroma calmante e relaxante", "Ideal para ambientes de descanso"]
   },
   {
@@ -27,7 +27,7 @@ export const products: Product[] = [
     name: "Home Spray Maçã e Canela",
     category: "Home Sprays",
     price: 38.90,
-    image: "https://images.pexels.com/photos/8140952/pexels-photo-8140952.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "assets/macaCanela.png",
     shortDescription: "A sensação acolhedora de maçã com canela para seu lar.",
     longDescription: "O aroma aconchegante da combinação de maçã e canela traz uma sensação de acolhimento e conforto para qualquer ambiente. Ideal para salas de estar, quartos e espaços que precisam de um toque de carinho. Desenvolvido artesanalmente para proporcionar uma experiência sensorial duradoura.",
     ingredients: ["Água deionizada", "Álcool de cereais", "Óleos essenciais", "Fixador natural"],
@@ -38,7 +38,7 @@ export const products: Product[] = [
     name: "Difusor de Bambu e Jasmin",
     category: "Difusores",
     price: 62.90,
-    image: "https://images.pexels.com/photos/4210341/pexels-photo-4210341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    image: "assets/difusor.png",
     shortDescription: "Elegância e frescor do bambu com notas de jasmin.",
     longDescription: "O difusor de Bambu e Jasmin combina a elegância e frescor do bambu com as notas florais do jasmin, criando uma atmosfera sofisticada e acolhedora. Seu aroma suave e persistente transforma qualquer ambiente em um espaço de bem-estar. O frasco âmbar protege a fragrância e os bastões de madeira natural garantem a difusão perfeita.",
     ingredients: ["Álcool de cereais", "Óleos essenciais", "Fixador natural"],

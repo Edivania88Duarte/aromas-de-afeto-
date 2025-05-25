@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
           >
             <div className="aspect-square rounded-full bg-primary-100 p-8 max-w-md mx-auto overflow-hidden">
               <img 
-                src="assets/logoAromasDeAfeto.png" 
+                src="assets/chaBranco2.png" 
                 alt="Vela aromática Aromas de Afeto" 
                 className="w-full h-full object-cover rounded-full"
               />

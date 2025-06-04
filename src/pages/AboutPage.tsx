@@ -14,7 +14,7 @@ const AboutPage: React.FC = () => {
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
-      {/* Hero Section */}
+      
       <section className="pt-32 pb-16 bg-primary-50 relative overflow-hidden">
         <div className="absolute inset-0 bg-texture bg-cover bg-center opacity-5"></div>
         <div className="container-custom relative z-10">

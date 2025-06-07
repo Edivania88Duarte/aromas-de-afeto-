@@ -14,6 +14,10 @@ const ContactForm: React.FC = () => {
     setFormStatus('submitting');
     
     try {
+      // Add recipient email to form data
+      const formData = new FormData(formRef.current);
+      formData.append('to_email', 'contatoaromasdeafeto@gmail.com');
+      
       await emailjs.sendForm(
         'service_keb6coh', // Service ID from EmailJS
         'template_zycky19', // Template ID from EmailJS
@@ -64,6 +68,9 @@ const ContactForm: React.FC = () => {
       )}
       
       <form ref={formRef} onSubmit={handleSubmit}>
+        {/* Hidden field for recipient email */}
+        <input type="hidden" name="to_email" value="contatoaromasdeafeto@gmail.com" />
+        
         <div className="mb-4">
           <label htmlFor="user_name" className="block text-accent-700 mb-2">Nome</label>
           <input

@@ -28,7 +28,7 @@ const Newsletter: React.FC = () => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h2 className="heading-md text-primary-800 mb-4">Receba nosso carinho por e-mail</h2>
+            <h2 className="heading-md text-primary-800 mb-4">Receba um carinho por e-mail</h2>
             <p className="text-accent-700 mb-8">
               Inscreva-se para receber dicas de bem-estar, novidades sobre nossos produtos e promoções exclusivas.
             </p>

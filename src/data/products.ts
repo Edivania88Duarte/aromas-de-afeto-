@@ -26,7 +26,7 @@ export const products: Product[] = [
     id: "home-spray-flor-de-cerejeira",
     name: "Home Spray Flor de Cerejeira",
     category: "Home Sprays",
-    price: 38.90,
+    price: 20.00,
     image: "assets/florDeCerejeira.png",
     shortDescription: "A sensação acolhedora da flor de cerejeira para seu lar.",
     longDescription: "O aroma aconchegante da combinação da flor de cerejeira traz uma sensação de acolhimento e conforto para qualquer ambiente. Ideal para salas de estar, quartos e espaços que precisam de um toque de carinho. Desenvolvido artesanalmente para proporcionar uma experiência sensorial duradoura.",

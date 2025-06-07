@@ -5,17 +5,17 @@ const testimonials = [
   {
     quote: "As velas da Aromas de Afeto transformaram meus momentos de autocuidado. O aroma é delicado e persistente, criando uma atmosfera de tranquilidade em casa.",
     author: "Mariana Silva",
-    role: "Cliente desde 2023"
+    role: "Cliente desde 2024"
   },
   {
-    quote: "Comprei o home spray de maçã com canela e me apaixonei! O cheirinho aconchegante toma conta da casa toda e dura por muito tempo.",
+    quote: "Comprei o home spray de maçã com canela e me apaixonei! O cheirinho aconchegante toma conta do escritório todo e dura por muito tempo.",
     author: "Carolina Mendes",
-    role: "Cliente desde 2022"
+    role: "Cliente desde 2025"
   },
   {
-    quote: "Os produtos são feitos com tanto carinho que isso transparece na qualidade. Presenteei uma amiga com um kit e ela também se encantou.",
-    author: "Fernanda Oliveira",
-    role: "Cliente desde 2023"
+    quote: "Os produtos são feitos com tanto carinho que isso transparece na qualidade. Os ambientes são completamente transformados com as fragrâncias.",
+    author: "Edivania Duarte",
+    role: "Cliente desde 2024"
   }
 ];
 

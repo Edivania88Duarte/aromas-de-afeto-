@@ -15,10 +15,10 @@ const ContactForm: React.FC = () => {
     
     try {
       await emailjs.sendForm(
-        'service_aromas', // Service ID from EmailJS
-        'template_contact', // Template ID from EmailJS
+        'service_keb6coh', // Service ID from EmailJS
+        'template_zycky19', // Template ID from EmailJS
         formRef.current,
-        'YOUR_PUBLIC_KEY' // Public Key from EmailJS
+        '4RnmXYHQyzf1EybHU' // Public Key from EmailJS
       );
       
       setFormStatus('success');

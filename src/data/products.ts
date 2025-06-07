@@ -59,12 +59,12 @@ export const products: Product[] = [
     id: "home-spray-alecrim",
     name: "Home Spray Alecrim",
     category: "Home Sprays",
-    price: 38.90,
+    price: 35.00,
     image: "assets/sprayDifusor.png",
     shortDescription: "Refrescância e clareza mental com o aroma do alecrim.",
     longDescription: "O Home Spray de Alecrim traz a refrescância e os benefícios desta erva para os ambientes, ajudando a proporcionar clareza mental e foco. Ideal para espaços de trabalho, estudo ou qualquer lugar que precise de uma energia renovadora. Desenvolvido artesanalmente para proporcionar uma experiência sensorial autêntica.",
     ingredients: ["Água deionizada", "Álcool de cereais", "Óleo essencial de alecrim", "Fixador natural"],
-    highlights: ["100ml", "Aroma refrescante", "Spray de fácil aplicação", "Ideal para ambientes de trabalho e estudo"]
+    highlights: ["200ml", "Aroma refrescante", "Spray de fácil aplicação", "Ideal para ambientes de trabalho e estudo"]
   },
   {
     id: "difusor-cha-branco",

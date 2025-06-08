@@ -34,10 +34,10 @@ const BrandStory: React.FC = () => {
               Quem é a Aromas de Afeto?
             </h2>
             <p className="text-accent-700 mb-4">
-              Uma marca cearense, criada por uma jovem empreendedora e que surgiu com um grande interesse de levar amor e aconchego em forma de fragrâncias.
+              Uma marca cearense, criada por uma jovem empreendedora e que surgiu com grande interesse de levar amor e aconchego em forma de fragrâncias.
             </p>
             <p className="text-accent-700 mb-6">
-              Cada produto da Aromas de afeto é produzido artesanalmente, com muito cuidado, dedicação e responsabilidade, sendo cada um deles inspirado em momentos especiais da minha vida que me geraram memórias olfativas únicas.
+              Cada produto da Aromas de Afeto é produzido artesanalmente, com muito cuidado, dedicação e responsabilidade, sendo cada um deles inspirado em momentos especiais da minha vida que me geraram memórias olfativas únicas.
             </p>        
             <blockquote className="border-l-4 border-primary-400 pl-4 italic text-primary-700 mb-8">
               A Aromas de afeto tem o poder acolher, confortar e transformar cada ambiente com delicadeza e significado através das suas fragrâncias.

@@ -18,7 +18,7 @@ export const products: Product[] = [
     price: 49.90,
     image: "assets/vela1.png",
     shortDescription: "Relaxe com o aroma suave e calmante da maçã e canela.",
-    longDescription: "Nossa vela de lavanda traz a essência relaxante desta erva milenar para criar uma atmosfera de tranquilidade. Ideal para momentos de descanso, leitura ou meditação. Feita artesanalmente com ingredientes naturais e cera de soja.",
+    longDescription: "Essa vela foi criada especialmente pra você que busca aconchego nesse momento, independente do que esteja vivendo. A docilidade da fragrância de maçã com canela me lembra o cheiro do consultório da minha psicóloga. Esse lugar que em tantos momentos me trouxe paz e conforto me inspirou a criar essa vela pra você com a intenção de que esse conforto, de alguma maneira, possa chegar até você.",
     ingredients: ["Cera de soja", "Óleo essencial de maça e canela", "Pavio de algodão"],
     highlights: ["Tempo de queima: aproximadamente 40 horas", "Aroma calmante e relaxante", "Ideal para ambientes de descanso"]
   },
@@ -37,7 +37,7 @@ export const products: Product[] = [
     id: "difusor-bambu",
     name: "Difusor de Bambu e Jasmin",
     category: "Difusores",
-    price: 62.90,
+    price: 35.00,
     image: "assets/difusor2.png",
     shortDescription: "Elegância e frescor do bambu com notas de jasmin.",
     longDescription: "O difusor de Bambu e Jasmin combina a elegância e frescor do bambu com as notas florais do jasmin, criando uma atmosfera sofisticada e acolhedora. Seu aroma suave e persistente transforma qualquer ambiente em um espaço de bem-estar. O frasco âmbar protege a fragrância e os bastões de madeira natural garantem a difusão perfeita.",
@@ -45,14 +45,14 @@ export const products: Product[] = [
     highlights: ["200ml", "Dura aproximadamente 3 meses", "Bastões de madeira natural", "Frasco âmbar"]
   },
   {
-    id: "vela-baunilha",
-    name: "Vela Aromática Baunilha",
+    id: "vela-lavanda",
+    name: "Vela Aromática Lavanda",
     category: "Velas",
     price: 49.90,
     image: "assets/vela2.png",
-    shortDescription: "O aroma doce e reconfortante da baunilha.",
-    longDescription: "Nossa vela de baunilha envolve os ambientes com seu aroma doce e reconfortante, criando uma atmosfera de aconchego e bem-estar. Ideal para momentos de relaxamento ou para tornar suas noites mais especiais. Feita artesanalmente com ingredientes naturais e cera de soja.",
-    ingredients: ["Cera de soja", "Essência de baunilha", "Pavio de algodão"],
+    shortDescription: "O aroma doce e reconfortante da lavanda.",
+    longDescription: "Criada especialmente pra você que enfrenta a ansiedade nesse momento. A suavidade da fragrância de lavanda me traz calmaria em diversos momentos que me sinto dominada pela ansiedade. Essa sensação me inspirou a criar essa vela pra você com a intenção de fazer que esse relaxamento de alguma maneira chegue até você, mesmo em meio ao caos emocional que você se encontra.",
+    ingredients: ["Cera de soja", "Essência de lavanda", "Pavio de algodão"],
     highlights: ["Tempo de queima: aproximadamente 40 horas", "Aroma doce e aconchegante", "Ideal para noites especiais"]
   },
   {
@@ -70,11 +70,11 @@ export const products: Product[] = [
     id: "difusor-cha-branco",
     name: "Difusor de Chá Branco",
     category: "Difusores",
-    price: 62.90,
+    price: 20.00,
     image: "assets/homeSpray.png",
-    shortDescription: "A delicadeza e elegância do chá branco em forma de aroma.",
+    shortDescription: "A sensação que o aroma de chá branco traz.",
     longDescription: "O difusor de Chá Branco captura a delicadeza e a elegância desta fragrância, criando uma atmosfera de sofisticação e serenidade. Seu aroma suave, levemente floral e com notas cítricas, traz uma sensação de limpeza e frescor para os ambientes. O frasco âmbar protege a fragrância e os bastões de madeira natural garantem a difusão perfeita.",
     ingredients: ["Álcool de cereais", "Óleos essenciais", "Fixador natural"],
-    highlights: ["200ml", "Dura aproximadamente 3 meses", "Bastões de madeira natural", "Frasco âmbar"]
+    highlights: ["100ml", "Dura aproximadamente 3 meses", "Bastões de madeira natural", "Frasco âmbar"]
   }
 ];

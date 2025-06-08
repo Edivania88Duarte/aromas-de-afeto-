@@ -11,7 +11,7 @@ const BrandValues: React.FC = () => {
     },
     {
       icon: <Leaf className="w-10 h-10 text-primary-600" />,
-      title: 'Ingredientes Selecionados',
+      title: 'Componentes Selecionados',
       description: 'Utilizamos matérias-primas de qualidade para criar aromas que enriquecem os sentidos.'
     },
     {

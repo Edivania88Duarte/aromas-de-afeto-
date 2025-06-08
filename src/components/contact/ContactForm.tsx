@@ -87,7 +87,7 @@ const ContactForm: React.FC = () => {
         </div>
         
         <div className="mb-4">
-          <label htmlFor="user_phone" className="block text-accent-700 mb-2">Telefone (opcional)</label>
+          <label htmlFor="user_phone" className="block text-accent-700 mb-2">Telefone</label>
           <input
             type="tel"
             id="user_phone"

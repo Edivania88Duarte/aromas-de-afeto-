@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const testimonials = [
   {
-    quote: "As velas da Aromas de Afeto transformaram meus momentos de autocuidado. O aroma é delicado e persistente, criando uma atmosfera de tranquilidade em casa.",
+    quote: "Ao difusores da Aromas de Afeto transformaram meus momentos de autocuidado. O aroma é delicado e persistente, criando uma atmosfera de tranquilidade em casa.",
     author: "Mariana Silva",
     role: "Cliente desde 2024"
   },
@@ -13,7 +13,7 @@ const testimonials = [
     role: "Cliente desde 2025"
   },
   {
-    quote: "Os produtos são feitos com tanto carinho que isso transparece na qualidade. Os ambientes são completamente transformados com as fragrâncias.",
+    quote: "Os produtos são feitos com tanto carinho e amor, que isso transparece na qualidade. Os ambientes são completamente transformados com uma sensação única de harmonia, acolhimento e aconchego.",
     author: "Edivania Duarte",
     role: "Cliente desde 2024"
   }

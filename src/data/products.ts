@@ -55,6 +55,17 @@ export const products: Product[] = [
   //   ingredients: ["Cera de soja", "Essência de lavanda", "Pavio de algodão"],
   //   highlights: ["Tempo de queima: aproximadamente 40 horas", "Aroma doce e aconchegante", "Ideal para noites especiais"]
   // },
+   {
+    id: "difusor-capim-limao",
+    name: "Difusor Capim Limão",
+    category: "Difusores",
+    price: 45.00,
+    image: "assets/capimLimao.png",
+    shortDescription: "A sensação que o aroma de capim limão traz.",
+    longDescription: "O difusor de Capim Limão captura o frescor e a elegância desta fragrância, criando uma atmosfera de sofisticação e serenidade. Seu aroma suave e com notas cítricas, traz uma sensação de limpeza e frescor para os ambientes. O frasco âmbar protege a fragrância e os bastões de madeira natural garantem a difusão perfeita.",
+    ingredients: ["Álcool de cereais", "Óleos essenciais", "Fixador natural"],
+    highlights: ["100ml", "Dura aproximadamente 3 meses", "Bastões de madeira natural", "Frasco âmbar"]
+  },
   {
     id: "home-spray-lavanda",
     name: "Home Spray Lavanda",
@@ -66,15 +77,5 @@ export const products: Product[] = [
     ingredients: ["Água deionizada", "Álcool de cereais", "Óleo essencial de lavanda", "Fixador natural"],
     highlights: ["200ml", "Aroma refrescante", "Spray de fácil aplicação", "Ideal para ambientes de trabalho e estudo"]
   },
-  {
-    id: "difusor-capim-limao",
-    name: "Difusor Capim Limão",
-    category: "Difusores",
-    price: 45.00,
-    image: "assets/capimLimao.png",
-    shortDescription: "A sensação que o aroma de capim limão traz.",
-    longDescription: "O difusor de Capim Limão captura o frescor e a elegância desta fragrância, criando uma atmosfera de sofisticação e serenidade. Seu aroma suave e com notas cítricas, traz uma sensação de limpeza e frescor para os ambientes. O frasco âmbar protege a fragrância e os bastões de madeira natural garantem a difusão perfeita.",
-    ingredients: ["Álcool de cereais", "Óleos essenciais", "Fixador natural"],
-    highlights: ["100ml", "Dura aproximadamente 3 meses", "Bastões de madeira natural", "Frasco âmbar"]
-  }
+ 
 ];

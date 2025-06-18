@@ -30,7 +30,7 @@ export const products: Product[] = [
     image: "assets/florDeCerejeira.png",
     shortDescription: "A sensação acolhedora da flor de cerejeira para seu lar.",
     longDescription: "O aroma aconchegante da combinação da flor de cerejeira traz uma sensação de acolhimento e conforto para qualquer ambiente. Ideal para salas de estar, quartos e espaços que precisam de um toque de carinho. Desenvolvido artesanalmente para proporcionar uma experiência sensorial duradoura.",
-    ingredients: ["Água deionizada", "Álcool de cereais", "Óleos essenciais", "Fixador natural"],
+    ingredients: ["Base para perfume", "Essência de flor de cerejeira"],
     highlights: ["100ml", "Aroma duradouro", "Spray de fácil aplicação", "Ideal para todos os ambientes"]
   },
   {
@@ -41,7 +41,7 @@ export const products: Product[] = [
     image: "assets/difusor2.png",
     shortDescription: "Elegância e frescor do bambu.",
     longDescription: "O difusor de Bambu combina a elegância e frescor do bambu, criando uma atmosfera sofisticada e acolhedora. Seu aroma suave e persistente transforma qualquer ambiente em um espaço de bem-estar. O frasco âmbar protege a fragrância e os bastões de madeira natural garantem a difusão perfeita.",
-    ingredients: ["Álcool de cereais", "Óleos essenciais", "Fixador natural"],
+    ingredients: ["Base para perfume", "Essência de bambu"],
     highlights: ["200ml", "Dura aproximadamente 3 meses", "Bastões de madeira natural", "Frasco âmbar"]
   },
   // {
@@ -63,7 +63,7 @@ export const products: Product[] = [
     image: "assets/capimLimao.png",
     shortDescription: "A sensação que o aroma de capim limão traz.",
     longDescription: "O difusor de Capim Limão captura o frescor e a elegância desta fragrância, criando uma atmosfera de sofisticação e serenidade. Seu aroma suave e com notas cítricas, traz uma sensação de limpeza e frescor para os ambientes. O frasco âmbar protege a fragrância e os bastões de madeira natural garantem a difusão perfeita.",
-    ingredients: ["Álcool de cereais", "Óleos essenciais", "Fixador natural"],
+    ingredients: ["Base para perfume", "Essência de capim-limão"],
     highlights: ["100ml", "Dura aproximadamente 3 meses", "Bastões de madeira natural", "Frasco âmbar"]
   },
   {
@@ -74,7 +74,7 @@ export const products: Product[] = [
     image: "assets/sprayDifusor.png",
     shortDescription: "Refrescância e clareza mental com o aroma da lavanda.",
     longDescription: "O Home Spray de Lavanda traz a calmaria e os benefícios desta erva para os ambientes, ajudando a proporcionar clareza mental, desacelaração e foco. Ideal para espaços de trabalho, estudo ou qualquer lugar que precise de uma energia renovadora. Desenvolvido artesanalmente para proporcionar uma experiência sensorial autêntica.",
-    ingredients: ["Água deionizada", "Álcool de cereais", "Óleo essencial de lavanda", "Fixador natural"],
+    ingredients: ["Base para perfume", "Essência de lavanda"],
     highlights: ["200ml", "Aroma refrescante", "Spray de fácil aplicação", "Ideal para ambientes de trabalho e estudo"]
   },
  

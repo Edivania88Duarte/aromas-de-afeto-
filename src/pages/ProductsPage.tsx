@@ -112,7 +112,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, index }) => {
             <>
               {product.ingredients && (
                 <div className="mb-4">
-                  <h4 className="font-medium text-primary-700 mb-2">Componentes</h4>
+                  <h4 className="font-medium text-primary-700 mb-2">Composição</h4>
                   <ul className="text-accent-700 text-sm">
                     {product.ingredients.map((ingredient, i) => (
                       <li key={i} className="flex items-center gap-2 mb-1">

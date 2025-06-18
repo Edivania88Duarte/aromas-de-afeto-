@@ -40,7 +40,7 @@ export const products: Product[] = [
     price: 45.00,
     image: "assets/difusor2.png",
     shortDescription: "Elegância e frescor do bambu.",
-    longDescription: "O difusor de Bambu combina a elegância e frescor do bambu, criando uma atmosfera sofisticada e acolhedora. Seu aroma suave e persistente transforma qualquer ambiente em um espaço de bem-estar. O frasco âmbar protege a fragrância e os bastões de madeira natural garantem a difusão perfeita.",
+    longDescription: "O Difusor de Bambu é pura elegância em forma de aroma. Com notas verdes e refrescantes, ele traz uma sensação de leveza e equilíbrio ao ambiente. Perfeito para quem ama um espaço sofisticado, mas com alma. O frasco âmbar e os bastões de madeira completam essa experiência que harmoniza natureza e bem-estar em cada respiro.",
     ingredients: ["Base para perfume", "Essência de bambu"],
     highlights: ["200ml", "Dura aproximadamente 3 meses", "Bastões de madeira natural", "Frasco âmbar"]
   },
@@ -73,9 +73,9 @@ export const products: Product[] = [
     price: 35.00,
     image: "assets/sprayDifusor.png",
     shortDescription: "Refrescância e clareza mental com o aroma da lavanda.",
-    longDescription: "O Home Spray de Lavanda traz a calmaria e os benefícios desta erva para os ambientes, ajudando a proporcionar clareza mental, desacelaração e foco. Ideal para espaços de trabalho, estudo ou qualquer lugar que precise de uma energia renovadora. Desenvolvido artesanalmente para proporcionar uma experiência sensorial autêntica.",
+    longDescription: "O Home Spray de Lavanda é uma pausa merecida no meio do caos. Seu aroma floral e tranquilizante ajuda a desacelerar, trazendo foco, clareza mental e uma paz que abraça. Ideal para o cantinho do home office, da leitura ou da meditação. Um respiro perfumado que te ajuda a voltar pra si mesma.",
     ingredients: ["Base para perfume", "Essência de lavanda"],
-    highlights: ["200ml", "Aroma refrescante", "Spray de fácil aplicação", "Ideal para ambientes de trabalho e estudo"]
+    highlights: ["200ml", "Aroma tranquilizante", "Spray de fácil aplicação", "Ideal para ambientes de trabalho e estudo"]
   },
  
 ];

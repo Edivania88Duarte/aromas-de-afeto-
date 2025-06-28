@@ -150,7 +150,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, index }) => {
         
         <div className="flex items-center justify-between pt-3 border-t border-primary-100">
           <span className="font-medium text-primary-700">
-            R$ {product.price.toFixed(2)}
+             {product.price.toLocaleString('pt-BR', {
+              style: 'currency',
+              currency: 'BRL',
+            })}
           </span>
           <a 
             href={`https://wa.me/5585997790523?text=Olá! Gostaria de saber mais sobre o produto: ${product.name}`}

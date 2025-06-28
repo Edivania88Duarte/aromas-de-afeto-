@@ -10,7 +10,7 @@ const Newsletter: React.FC = () => {
     e.preventDefault();
     setIsLoading(true);
     
-    // Simulate API call
+    // Simulate API call -- Em desenvolvimento
     setTimeout(() => {
       setIsLoading(false);
       setIsSubmitted(true);

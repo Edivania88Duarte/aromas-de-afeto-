@@ -4,6 +4,7 @@ import { ArrowRight } from 'lucide-react';
 
 import { products, Product } from '../data/products';
 import Newsletter from '../components/common/Newsletter';
+import { formatPrice } from '../utils/format';
 
 const ProductsPage: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
@@ -150,10 +151,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, index }) => {
         
         <div className="flex items-center justify-between pt-3 border-t border-primary-100">
           <span className="font-medium text-primary-700">
-             {product.price.toLocaleString('pt-BR', {
-              style: 'currency',
-              currency: 'BRL',
-            })}
+             {formatPrice(product.price)}
           </span>
           <a 
             href={`https://wa.me/5585997790523?text=Olá! Gostaria de saber mais sobre o produto: ${product.name}`}

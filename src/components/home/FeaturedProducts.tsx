@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 
 import { products } from '../../data/products';
+import { formatPrice } from '../../utils/format';
 
 const FeaturedProducts: React.FC = () => {
   const featuredProducts = products.slice(0, 3);
@@ -55,7 +56,7 @@ const FeaturedProducts: React.FC = () => {
                 </p>
                 <div className="flex items-center justify-between">
                   <span className="font-medium text-primary-700">
-                    R$ {product.price.toFixed(2)}
+                    R$ {formatPrice(product.price)}
                   </span>
                   <a 
                     href={`https://wa.me/5585997790523?text=Olá! Gostaria de saber mais sobre o produto: ${product.name}`}

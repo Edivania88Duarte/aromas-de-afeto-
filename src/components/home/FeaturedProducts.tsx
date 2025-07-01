@@ -56,7 +56,9 @@ const FeaturedProducts: React.FC = () => {
                 </p>
                 <div className="flex items-center justify-between">
                   <span className="font-medium text-primary-700">
-                    R$ {formatPrice(product.price)}
+                     {typeof product.price === 'number'
+                      ? formatPrice(product.price)
+                      : product.price}                    
                   </span>
                   <a 
                     href={`https://wa.me/5585997790523?text=Olá! Gostaria de saber mais sobre o produto: ${product.name}`}
@@ -64,7 +66,7 @@ const FeaturedProducts: React.FC = () => {
                     rel="noopener noreferrer"
                     className="text-primary-600 hover:text-primary-800 transition-colors flex items-center gap-1"
                   >
-                    <span>Comprar</span>
+                    <span>Comprar</span> 
                     <ArrowRight size={16} />
                   </a>
                 </div>

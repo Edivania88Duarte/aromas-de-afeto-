@@ -2,7 +2,7 @@ export interface Product {
   id: string;
   name: string;
   category: string;
-  price: number;
+  price: number | string;
   image: string;
   shortDescription: string;
   longDescription: string;
@@ -11,17 +11,17 @@ export interface Product {
 }
 
 export const products: Product[] = [
-  // {
-  //   id: "vela-maçã-canela",
-  //   name: "Vela Aromática Maçã e Canela",   
-  //   category: "Velas",
-  //   price: 49.90,
-  //   image: "assets/vela1.png",
-  //   shortDescription: "Relaxe com o aroma suave e calmante da maçã e canela.",
-  //   longDescription: "Essa vela foi criada especialmente pra você que busca aconchego nesse momento, independente do que esteja vivendo. A docilidade da fragrância de maçã com canela me lembra o cheiro do consultório da minha psicóloga. Esse lugar que em tantos momentos me trouxe paz e conforto me inspirou a criar essa vela pra você com a intenção de que esse conforto, de alguma maneira, possa chegar até você.",
-  //   ingredients: ["Cera de soja", "Óleo essencial de maça e canela", "Pavio de algodão"],
-  //   highlights: ["Tempo de queima: aproximadamente 40 horas", "Aroma calmante e relaxante", "Ideal para ambientes de descanso"]
-  // },
+  {
+    id: "vela-maçã-canela",
+    name: "Vela Aromática Maçã e Canela",   
+    category: "Velas",
+    price: 55.00,
+    image: "assets/velaMacaCanela.png",
+    shortDescription: "Relaxe com o aroma suave e calmante da maçã e canela.",
+    longDescription: "Essa vela foi criada especialmente pra você que busca aconchego nesse momento, independente do que esteja vivendo. A docilidade da fragrância de maçã com canela me lembra o cheiro do consultório da minha psicóloga. Esse lugar que em tantos momentos me trouxe paz e conforto me inspirou a criar essa vela pra você com a intenção de que esse conforto, de alguma maneira, possa chegar até você.",
+    ingredients: ["Cera de soja", "Óleo essencial de maça e canela", "Pavio de algodão"],
+    highlights: ["50g", "Tempo de queima: aproximadamente 40 horas", "Aroma calmante e relaxante", "Ideal para ambientes de descanso"]
+  },
   {
     id: "home-spray-flor-de-cerejeira",
     name: "Home Spray Flor de Cerejeira",
@@ -39,22 +39,33 @@ export const products: Product[] = [
     category: "Difusores",
     price: 45.00,
     image: "assets/difusor2.png",
-    shortDescription: "Elegância e frescor do bambu.",
+    shortDescription: "Elegância e frescor natural e envolvente do bambu.",
     longDescription: "O Difusor de Bambu é pura elegância em forma de aroma. Com notas verdes e refrescantes, ele traz uma sensação de leveza e equilíbrio ao ambiente. Perfeito para quem ama um espaço sofisticado, mas com alma. O frasco âmbar e os bastões de madeira completam essa experiência que harmoniza natureza e bem-estar em cada respiro.",
     ingredients: ["Base para perfume", "Essência de bambu"],
     highlights: ["200ml", "Dura aproximadamente 3 meses", "Bastões de madeira natural", "Frasco âmbar"]
   },
-  // {
-  //   id: "vela-lavanda",
-  //   name: "Vela Aromática Lavanda",
-  //   category: "Velas",
-  //   price: 49.90,
-  //   image: "assets/vela2.png",
-  //   shortDescription: "O aroma doce e reconfortante da lavanda.",
-  //   longDescription: "Criada especialmente pra você que enfrenta a ansiedade nesse momento. A suavidade da fragrância de lavanda me traz calmaria em diversos momentos que me sinto dominada pela ansiedade. Essa sensação me inspirou a criar essa vela pra você com a intenção de fazer que esse relaxamento de alguma maneira chegue até você, mesmo em meio ao caos emocional que você se encontra.",
-  //   ingredients: ["Cera de soja", "Essência de lavanda", "Pavio de algodão"],
-  //   highlights: ["Tempo de queima: aproximadamente 40 horas", "Aroma doce e aconchegante", "Ideal para noites especiais"]
-  // },
+  {
+    id: "vela-lavanda",
+    name: "Vela Aromática Lavanda",
+    category: "Velas",
+    price: 55.00,
+    image: "assets/velaLavanda.png",
+    shortDescription: "O aroma doce e reconfortante da lavanda.",
+    longDescription: "Criada especialmente pra você que enfrenta a ansiedade nesse momento. A suavidade da fragrância de lavanda me traz calmaria em diversos momentos que me sinto dominada pela ansiedade. Essa sensação me inspirou a criar essa vela pra você com a intenção de fazer que esse relaxamento de alguma maneira chegue até você, mesmo em meio ao caos emocional que você se encontra.",
+    ingredients: ["Cera de soja", "Essência de lavanda", "Pavio de algodão"],
+    highlights: ["50g","Tempo de queima: aproximadamente 40 horas", "Aroma doce e aconchegante", "Ideal para noites especiais"]
+  },   
+   {
+    id: "personalizado-dia-das-maes",
+    name: "Lembracinha Dia das Mães",
+    category: "Personalizados",
+    price: "Sob consulta",
+    image: "assets/lembrancinha.png",
+    shortDescription: "A lembracinha perfeita para o seu momento especial!",
+    longDescription: "Para cuidar de pessoas e momentos especiais, criamos a lembrancinha perfeita para o Dia das Mães. Com a essência que você escolher, ela se torna um presente único e cheio de carinho. Cada lembrancinha é feita com amor e atenção aos detalhes, garantindo que o aroma escolhido traga alegria e aconchego.",
+    ingredients: ["Cera de soja", "Essência de lavanda", "Pavio de algodão"],
+    highlights: ["20g","Essência personalizada de acordo com o seu gosto", "A partir de 20 unidades"]
+  },
    {
     id: "difusor-capim-limao",
     name: "Difusor Capim Limão",
@@ -76,6 +87,28 @@ export const products: Product[] = [
     longDescription: "O Home Spray de Lavanda é uma pausa merecida no meio do caos. Seu aroma floral e tranquilizante ajuda a desacelerar, trazendo foco, clareza mental e uma paz que abraça. Ideal para o cantinho do home office, da leitura ou da meditação. Um respiro perfumado que te ajuda a voltar pra si mesma.",
     ingredients: ["Base para perfume", "Essência de lavanda"],
     highlights: ["200ml", "Aroma tranquilizante", "Spray de fácil aplicação", "Ideal para ambientes de trabalho e estudo"]
+  },
+   {
+    id: "personalizado-mini-difusor",
+    name: "Mini Difusor Personalizado",
+    category: "Personalizados",
+    price: "Sob consulta",
+    image: "assets/miniDifusor.png",
+    shortDescription: "O aroma doce e reconfortante de acordo com a frangância escolhida.",
+    longDescription: "O Mini Difusor Personalizado é uma forma única de expressar carinho e afeto. Com a essência que você escolher, ele se torna um presente especial, perfeito para datas comemorativas ou para surpreender alguém querido. Cada difusor é feito com amor e atenção aos detalhes, garantindo que o aroma escolhido traga alegria e aconchego.",
+    ingredients: ["Aroma tranquilizante", "Essência personalizada de acordo com a sua escolha", "Pavio de algodão"],
+    highlights: ["20ml","sob encomenda"]
+  },
+   {
+    id: "velas",
+    name: "Velas",
+    category: "Velas",
+    price: 55.00,
+    image: "assets/velas.png",
+    shortDescription: " Acalento e aconchego em forma de vela.",
+    longDescription: "A suavidade da lavanda encontra o calor envolvente da maçã com canela. Uma dupla perfeita pra transformar o ambiente em um refúgio de calma e afeto. Ideal pra momentos de autocuidado, relaxamento ou pra dar aquele toque especial no seu cantinho favorito.",
+    ingredients: ["Cera de soja", "Essência de lavanda ou maçã-canela", "Pavio de algodão"],
+    highlights: ["50g","Tempo de queima: aproximadamente 40 horas", "Aroma doce e aconchegante", "Ideal para momentos especiais no seu lar ou em ambiente especial"]
   },
  
 ];

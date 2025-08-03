@@ -1,115 +1,39 @@
-// import React, { useState } from 'react';
-// import { motion } from 'framer-motion';
-
-// const Newsletter: React.FC = () => {
-//   const [email, setEmail] = useState('');
-//   const [isSubmitted, setIsSubmitted] = useState(false);
-//   const [isLoading, setIsLoading] = useState(false);
-
-//   const handleSubmit = (e: React.FormEvent) => {
-//     e.preventDefault();
-//     setIsLoading(true);
-    
-//     // Simulate API call -- Em desenvolvimento
-//     setTimeout(() => {
-//       setIsLoading(false);
-//       setIsSubmitted(true);
-//       setEmail('');
-//     }, 1000);
-//   };
-
-//   return (
-//     <section className="bg-primary-100 py-16">
-//       <div className="container-custom">
-//         <div className="max-w-xl mx-auto text-center">
-//           <motion.div
-//             initial={{ opacity: 0, y: 20 }}
-//             whileInView={{ opacity: 1, y: 0 }}
-//             transition={{ duration: 0.6 }}
-//             viewport={{ once: true }}
-//           >
-//             <h2 className="heading-md text-primary-800 mb-4">Receba um carinho por e-mail</h2>
-//             <p className="text-accent-700 mb-8">
-//               Inscreva-se para receber dicas de bem-estar, novidades sobre nossos produtos e promoções exclusivas.
-//             </p>
-            
-//             {isSubmitted ? (
-//               <div className="bg-primary-50 border border-primary-200 rounded-lg p-6">
-//                 <p className="text-primary-700 font-medium">
-//                   Obrigado por se inscrever! Em breve você receberá nossas novidades.
-//                 </p>
-//               </div>
-//             ) : (
-//               <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
-//                 <input
-//                   type="email"
-//                   value={email}
-//                   onChange={(e) => setEmail(e.target.value)}
-//                   placeholder="Seu melhor e-mail"
-//                   required
-//                   className="input-field flex-grow"
-//                 />
-//                 <button
-//                   type="submit"
-//                   disabled={isLoading}
-//                   className="btn-primary whitespace-nowrap"
-//                 >
-//                   {isLoading ? 'Enviando...' : 'Inscrever-se'}
-//                 </button>
-//               </form>
-//             )}
-//           </motion.div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Newsletter;
-
-
-
 import React from 'react';
 import { motion } from 'framer-motion';
 
 const Newsletter: React.FC = () => {
   return (
     <section className="bg-primary-100 py-16">
-      <div className="container-custom">
-        <div className="max-w-xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="heading-md text-primary-800 mb-4">Receba um carinho por e-mail</h2>
-            <p className="text-accent-700 mb-8">
-              Inscreva-se para receber dicas de bem-estar, novidades sobre nossos produtos e promoções exclusivas.
-            </p>
+      <div className="container-custom flex flex-col items-center text-center px-4">
+        <motion.h2 
+          initial={{ opacity: 0, y: 20 }} 
+          animate={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 0.6 }} 
+          className="text-3xl font-bold mb-4"
+        >
+          🌿 Receba afeto no seu e-mail
+        </motion.h2>
 
-            <form
-              action="https://aromasdeafeto.substack.com/subscribe"
-              method="POST"
-              target="_blank"
-              className="flex flex-col sm:flex-row gap-3"
-            >
-              <input
-                type="email"
-                name="email"
-                placeholder="Seu melhor e-mail"
-                required
-                className="input-field flex-grow"
-              />
-              <button
-                type="submit"
-                className="btn-primary whitespace-nowrap"
-              >
-                Inscrever-se
-              </button>
-            </form>
-          </motion.div>
-        </div>
+        <motion.p 
+          initial={{ opacity: 0, y: 10 }} 
+          animate={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 0.6, delay: 0.2 }} 
+          className="text-lg text-gray-700 mb-6 max-w-xl"
+        >
+          Assine a newsletter gratuita e receba conteúdos cheios de aroma, afeto e poesia diretamente na sua caixa de entrada. 💌
+        </motion.p>
+
+        <motion.a 
+          initial={{ opacity: 0, scale: 0.95 }} 
+          animate={{ opacity: 1, scale: 1 }} 
+          transition={{ duration: 0.5, delay: 0.4 }} 
+          href="https://aromasdeafeto.substack.com" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="bg-primary-500 hover:bg-primary-600 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transition duration-300"
+        >
+          Quero me inscrever 💛
+        </motion.a>
       </div>
     </section>
   );
